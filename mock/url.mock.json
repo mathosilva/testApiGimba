@@ -1,0 +1,6 @@
+{
+   "HOMOLOG":{
+        "base":"https://api.gimba.com.br/homologGatewayPagamento/api/pedido/",
+        "cancelarPagamento":""
+   } 
+}  
