@@ -5,16 +5,15 @@ var header = require('../../mock/pagamento/headerPagamento.json')
 describe('Pagamento', ()=>{
     it('Realizar pagamento', async()=>{
         let valor = 123.45;
-        let msgSucesso = "Transação capturada com sucesso"
+        let msgSucesso = "Transação capturada com sucesso";
         
         let res = await makeRequest({
             method: 'post',
             url: `${url.base}`,
             data: pagamento,
             headers: header
-        })
-        console.log(res.body.data.codigoGatewayProcessamento)
-        let body = res.body
+        });
+        let body = res.body;
         expect(res.status).toEqual(200);
         expect(body.data.valorTotal).toEqual(valor);
         expect(body.data.mensagemAdquirencia).toEqual(msgSucesso);

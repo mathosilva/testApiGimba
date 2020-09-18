@@ -68,11 +68,6 @@ async function makeRequest(options) {
     def.httpsAgent = new https.Agent({ rejectUnauthorized: false });
     if (def.form === true) {
         const formData = new FormData();
-        // var teste = {
-        //     header: {
-        //         "SistemaOrigem":"E-commerce"
-        //     }
-        // }
         Object.keys(def.data).forEach((key) => {
             formData.append(key, def.data[key]);
         });
