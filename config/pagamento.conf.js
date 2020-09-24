@@ -14,7 +14,7 @@ module.exports = {
     ],
     testEnvironment: "node",
     testMatch: [
-      "**/specs/**/*.spec.js?(x)"
+      "**/specs/pagamento/*.spec.js?(x)"
     ],
     testPathIgnorePatterns: [
       "../node_modules/",

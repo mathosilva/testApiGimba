@@ -5,7 +5,7 @@ const header = require('../../mock/pagamento/headerPagamento.json')
 async function realizaPagamento(){
     return await makeRequest({
         method: 'post',
-        url: `${url.base}`,
+        url: `${url.base}${url.pedido}`,
         data: pagamento,
         headers: header
     });
@@ -13,7 +13,7 @@ async function realizaPagamento(){
 async function cancelaPagamento(cancelarPagamento){ 
     return res = await makeRequest({
         method: 'put',
-        url: `${url.base}${url.codProcessamento}`,
+        url: `${url.base}${url.pedido}${url.codProcessamento}`,
         data: cancelarPagamento,
         headers: header
     });
@@ -21,7 +21,7 @@ async function cancelaPagamento(cancelarPagamento){
 async function obterPagamento(){ 
     return res = await makeRequest({
         method: 'get',
-        url: `${url.base}${url.codProcessamento}`,
+        url: `${url.base}${url.pedido}${url.codProcessamento}`,
         headers: header
     });
 };

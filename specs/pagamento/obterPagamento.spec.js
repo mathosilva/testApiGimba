@@ -1,11 +1,10 @@
 const {makeRequest} = require('../../helpers/main');
-const dataPagamento = require('../../mock/pagamento/pagamento-cartao.json')
-var header = require('../../mock/pagamento/headerPagamento.json')
 const pagamento = require('../../helpers/pagamento/pagamento')
 
 describe('Obter Pagamento', ()=>{
     it('Obter Pagamento', async ()=>{
     let resPag = await pagamento.realizaPagamento()
+    console.log(resPag)
     let codCobranca = resPag.body.data.codigoCobranca
     let valor = resPag.body.data.valorTotal
     url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
@@ -14,11 +13,10 @@ describe('Obter Pagamento', ()=>{
     expect(res.body.data.codigoCobranca).toEqual(codCobranca)
     expect(res.body.data.valorTotal).toEqual(valor)
     })
-    // it('Obter Pagamento Cancelado', async ()=>{
-
-    // })
-    // it('Obter Pagamento Inexistente',async  ()=>{
-
-    // })
-
+    it('Obter Pagamento Inexistente',async  ()=>{
+        url.codProcessamento = 'sdafafaegr'
+        let res = await pagamento.obterPagamento()
+        expect(res.status).toEqual(400)
+        expect(res.body.error[0]).toEqual('Pedido não encontrado')
+    })
 })

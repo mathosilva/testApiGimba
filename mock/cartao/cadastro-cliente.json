@@ -1,0 +1,12 @@
+{
+    "documento": "26738941013",
+    "email": "alex.freitas.dev@gmail.com",
+    "nome": "Alex Freitas PF",
+    "endereco": {
+        "logradouro": "RUA PERPETUA DE OLIVEIRA FREITAS",
+        "cep": "11347060",
+        "cidade": "SAO VICENTE",
+        "uf": "SP",
+        "pais": "BR"
+    }
+}
