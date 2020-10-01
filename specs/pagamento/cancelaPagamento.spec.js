@@ -7,12 +7,10 @@ describe('Cancelar Pagamento', ()=>{
         let resPag = await pagamento.realizaPagamento()
         url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
         let obter = await pagamento.obterPagamento()
-        console.log(obter)
-        if(obter.body.data.situacaoTransacao == "with_error" || obter.body.data.situacaoTransacao == "failed"){
-            console.log(`falhou: ${resPag.body.data.codigoGatewayProcessamento}`)
-            resPag = await pagamento.realizaPagamento()
-            url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
-        }
+        // if(obter.body.data.situacaoTransacao == "with_error" || obter.body.data.situacaoTransacao == "failed"){
+        //     resPag = await pagamento.realizaPagamento()
+        //     url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
+        // }
         cancelarPagamento.valor = resPag.body.data.valorTotal
         cancelarPagamento.codigoCobranca = resPag.body.data.codigoCobranca
         let res = await pagamento.cancelaPagamento(cancelarPagamento)
@@ -45,12 +43,10 @@ describe('Cancelar Pagamento', ()=>{
         let resPag = await pagamento.realizaPagamento()
         url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
         let obter = await pagamento.obterPagamento()
-        console.log(obter)
-        if(obter.body.data.situacaoTransacao == "with_error" || obter.body.data.situacaoTransacao == "failed"){
-            console.log(`falhou: ${resPag.body.data.codigoGatewayProcessamento}`)
-            resPag = await pagamento.realizaPagamento()
-            url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
-        }
+        // if(obter.body.data.situacaoTransacao == "with_error" || obter.body.data.situacaoTransacao == "failed"){
+        //     resPag = await pagamento.realizaPagamento()
+        //     url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
+        // }
         cancelarPagamento.codigoCobranca = resPag.body.data.codigoCobranca
         let valor = resPag.body.data.valorTotal
         cancelarPagamento.valor = null
@@ -65,11 +61,10 @@ describe('Cancelar Pagamento', ()=>{
         let resPag = await pagamento.realizaPagamento()
         url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
         let obter = await pagamento.obterPagamento()
-        if(obter.body.data.situacaoTransacao == "with_error" || obter.body.data.situacaoTransacao == "failed"){
-            console.log(`falhou: ${resPag.body.data.codigoGatewayProcessamento}`)
-            resPag = await pagamento.realizaPagamento()
-            url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
-        }
+        // if(obter.body.data.situacaoTransacao == "with_error" || obter.body.data.situacaoTransacao == "failed"){
+        //     resPag = await pagamento.realizaPagamento()
+        //     url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
+        // }
         cancelarPagamento.codigoCobranca  = resPag.body.data.codigoCobranca  
         cancelarPagamento.valor = 50.00
         await pagamento.cancelaPagamento(cancelarPagamento)
@@ -85,11 +80,10 @@ describe('Cancelar Pagamento', ()=>{
         let resPag = await pagamento.realizaPagamento()
         url.codProcessamento = resPag.body.data.codigoGatewayProcessamento  
         let obter = await pagamento.obterPagamento()
-        if(obter.body.data.situacaoTransacao == "with_error" || obter.body.data.situacaoTransacao == "failed"){
-            console.log(`falhou: ${resPag.body.data.codigoGatewayProcessamento}`)
-            resPag = await pagamento.realizaPagamento()
-            url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
-        }
+        // if(obter.body.data.situacaoTransacao == "with_error" || obter.body.data.situacaoTransacao == "failed"){
+        //     resPag = await pagamento.realizaPagamento()
+        //     url.codProcessamento = resPag.body.data.codigoGatewayProcessamento
+        // }
         cancelarPagamento.codigoCobranca = resPag.body.data.codigoCobranca       
         cancelarPagamento.valor = valor
         let res = await pagamento.cancelaPagamento(cancelarPagamento)

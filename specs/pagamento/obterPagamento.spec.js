@@ -4,7 +4,6 @@ const pagamento = require('../../helpers/pagamento/pagamento')
 describe('Obter Pagamento', ()=>{
     it('Obter Pagamento', async ()=>{
     let resPag = await pagamento.realizaPagamento()
-    console.log(resPag)
     let codCobranca = resPag.body.data.codigoCobranca
     let valor = resPag.body.data.valorTotal
     url.codProcessamento = resPag.body.data.codigoGatewayProcessamento

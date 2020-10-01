@@ -22,13 +22,6 @@ describe('Pagamento', ()=>{
         expect(body.error[0]).toEqual("'Parcelas' deve ser superior a '0'.")
         dataPagamento.parcelas = parcelas;
     });
-    // it('Realizar pagamento sem id', async()=>{
-    //     let id = 123
-    //     dataPagamento.cliente.id = ''
-    //     let res = await pagamento.realizaPagamento()
-    //     expect(res.status).toEqual(400);
-    //     dataPagamento.cliente.id = id
-    // });
     it('Realizar pagamento sem documento', async()=>{
         let documento = '381.579.998-80'
         dataPagamento.cliente.documento = ''

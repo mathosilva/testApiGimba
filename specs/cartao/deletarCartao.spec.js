@@ -17,6 +17,11 @@ describe('Deletar cartão', ()=>{
         pos = res.body.data.map(function(e) { return e.idCartao; }).indexOf(idCartao)
         expect(resDelete.status).toEqual(200)
         expect(pos).toEqual(-1)
-
+    })
+    it('deletar Cartão de cliente inválido', async () =>{
+        let cpfInvalido = '38974224'
+        let idCartãoInvalido = '789754698'
+        let resDelete = await cartao.deletaCartoes(cpfInvalido, idCartãoInvalido)
+        expect(resDelete.status).toEqual(404)
     })
 })

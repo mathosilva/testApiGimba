@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "npx jest --config ./config/test.conf.js",
     "pagamento": "npx jest --config ./config/pagamento.conf.js",
     "cartao": "npx jest --config ./config/cartao.conf.js"
   },
@@ -13,6 +14,8 @@
     "axios": "^0.20.0",
     "cpf_cnpj": "^0.2.0",
     "faker": "^5.1.0",
-    "jest": "^26.4.2"
+    "jest": "^26.4.2",
+    "jest-html-reporter": "^3.2.0",
+    "jest-stare": "^2.2.0"
   }
 }

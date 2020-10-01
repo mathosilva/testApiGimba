@@ -1,0 +1,204 @@
+<html><head><meta charset="utf-8"/><title>API Gimba Test</title><style type="text/css">html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+body {
+  padding: 2rem 1rem;
+  font-size: 0.85rem;
+}
+#jesthtml-content {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+#title {
+  margin: 0;
+  flex-grow: 1;
+}
+#logo {
+  height: 4rem;
+}
+#timestamp {
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+/** SUMMARY */
+#summary {
+  color: #333;
+  margin: 2rem 0;
+  display: flex;
+  font-family: monospace;
+  font-size: 1rem;
+}
+#summary > div {
+  margin-right: 2rem;
+  background: #eee;
+  padding: 1rem;
+  min-width: 15rem;
+}
+#summary > div:last-child {
+  margin-right: 0;
+}
+@media only screen and (max-width: 720px) {
+  #summary {
+    flex-direction: column;
+  }
+  #summary > div {
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+  #summary > div:first-child {
+    margin-top: 0;
+  }
+}
+
+.summary-total {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.summary-passed {
+  color: #4f8a10;
+  border-left: 0.4rem solid #4f8a10;
+  padding-left: 0.5rem;
+}
+.summary-failed {
+  color: #d8000c;
+  border-left: 0.4rem solid #d8000c;
+  padding-left: 0.5rem;
+}
+.summary-pending {
+  color: #9f6000;
+  border-left: 0.4rem solid #9f6000;
+  padding-left: 0.5rem;
+}
+.summary-empty {
+  color: #999;
+  border-left: 0.4rem solid #999;
+}
+
+.test-result {
+  padding: 1rem;
+  margin-bottom: 0.25rem;
+}
+.test-result:last-child {
+  border: 0;
+}
+.test-result.passed {
+  background-color: #dff2bf;
+  color: #4f8a10;
+}
+.test-result.failed {
+  background-color: #ffbaba;
+  color: #d8000c;
+}
+.test-result.pending {
+  background-color: #ffdf61;
+  color: #9f6000;
+}
+
+.test-info {
+  display: flex;
+  justify-content: space-between;
+}
+.test-suitename {
+  width: 20%;
+  text-align: left;
+  font-weight: bold;
+  word-break: break-word;
+}
+.test-title {
+  width: 40%;
+  text-align: left;
+  font-style: italic;
+}
+.test-status {
+  width: 20%;
+  text-align: right;
+}
+.test-duration {
+  width: 10%;
+  text-align: right;
+  font-size: 0.75rem;
+}
+
+.failureMessages {
+  padding: 0 1rem;
+  margin-top: 1rem;
+  border-top: 1px dashed #d8000c;
+}
+.failureMessages.suiteFailure {
+  border-top: none;
+}
+.failureMsg {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.suite-container {
+  margin-bottom: 2rem;
+}
+.suite-info {
+  padding: 1rem;
+  background-color: #eee;
+  color: #777;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+.suite-info .suite-path {
+  word-break: break-all;
+  flex-grow: 1;
+  font-family: monospace;
+  font-size: 1rem;
+}
+.suite-info .suite-time {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.3rem;
+  font-size: 0.75rem;
+}
+.suite-info .suite-time.warn {
+  background-color: #d8000c;
+  color: #fff;
+}
+
+/* CONSOLE LOGS */
+.suite-consolelog {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #efefef;
+}
+.suite-consolelog-header {
+  font-weight: bold;
+}
+.suite-consolelog-item {
+  padding: 0.5rem;
+}
+.suite-consolelog-item pre {
+  margin: 0.5rem 0;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+.suite-consolelog-item-origin {
+  color: #777;
+  font-weight: bold;
+}
+.suite-consolelog-item-message {
+  color: #000;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+</style></head><body><div id="jesthtml-content"><header><h1 id="title">API Gimba Test</h1></header><div id="metadata-container"><div id="timestamp">Started: 2020-09-24 15:54:04</div><div id="summary"><div id="suite-summary"><div class="summary-total">Suites (8)</div><div class="summary-passed">8 passed</div><div class="summary-failed summary-empty">0 failed</div><div class="summary-pending summary-empty">0 pending</div></div><div id="test-summary"><div class="summary-total">Tests (37)</div><div class="summary-passed">37 passed</div><div class="summary-failed summary-empty">0 failed</div><div class="summary-pending summary-empty">0 pending</div></div></div></div><div id="suite-1" class="suite-container"><div class="suite-info"><div class="suite-path">C:\Users\matheus.silva\Documents\Automação\apinovo\specs\cartao\deletarCartao.spec.js</div><div class="suite-time warn">6.946s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">Deletar cartão</div><div class="test-title">deletar Cartão</div><div class="test-status">passed</div><div class="test-duration">1.063s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Deletar cartão</div><div class="test-title">deletar Cartão de cliente oválido</div><div class="test-status">passed</div><div class="test-duration">0.068s</div></div></div></div></div><div id="suite-2" class="suite-container"><div class="suite-info"><div class="suite-path">C:\Users\matheus.silva\Documents\Automação\apinovo\specs\cartao\cadastro-cartao.spec.js</div><div class="suite-time warn">8.333s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cartões</div><div class="test-title">cadastrar cartão</div><div class="test-status">passed</div><div class="test-duration">0.812s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cartões</div><div class="test-title">cadastrar cartão sem Cvv</div><div class="test-status">passed</div><div class="test-duration">0.333s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cartões</div><div class="test-title">cadastrar cartão sem Nome Impresso</div><div class="test-status">passed</div><div class="test-duration">0.372s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cartões</div><div class="test-title">cadastrar cartão sem Numero do cartão</div><div class="test-status">passed</div><div class="test-duration">0.311s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cartões</div><div class="test-title">Cadastrar cartão com o ano anterior ao atual</div><div class="test-status">passed</div><div class="test-duration">0.318s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cartões</div><div class="test-title">Cadastrar cartão com o mes anterior</div><div class="test-status">passed</div><div class="test-duration">0.319s</div></div></div></div></div><div id="suite-3" class="suite-container"><div class="suite-info"><div class="suite-path">C:\Users\matheus.silva\Documents\Automação\apinovo\specs\pagamento\obterPagamento.spec.js</div><div class="suite-time">1.578s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">Obter Pagamento</div><div class="test-title">Obter Pagamento</div><div class="test-status">passed</div><div class="test-duration">0.967s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Obter Pagamento</div><div class="test-title">Obter Pagamento Inexistente</div><div class="test-status">passed</div><div class="test-duration">0.262s</div></div></div></div></div><div id="suite-4" class="suite-container"><div class="suite-info"><div class="suite-path">C:\Users\matheus.silva\Documents\Automação\apinovo\specs\pagamento\cancelaPagamento.spec.js</div><div class="suite-time warn">9.771s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cancelar Pagamento</div><div class="test-title">Cancelar pagamento</div><div class="test-status">passed</div><div class="test-duration">1.859s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cancelar Pagamento</div><div class="test-title">Cancelar pagamento ja cancelado</div><div class="test-status">passed</div><div class="test-duration">0.529s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cancelar Pagamento</div><div class="test-title">Cancelar pagamento inválido</div><div class="test-status">passed</div><div class="test-duration">0.303s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cancelar Pagamento</div><div class="test-title">Cancelar pagamento sem preencher o valor</div><div class="test-status">passed</div><div class="test-duration">1.726s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cancelar Pagamento</div><div class="test-title">Cancelar pagamento em partes</div><div class="test-status">passed</div><div class="test-duration">2.192s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cancelar Pagamento</div><div class="test-title">Cancelar pagamento com valor maior que o permitido</div><div class="test-status">passed</div><div class="test-duration">1.237s</div></div></div></div></div><div id="suite-5" class="suite-container"><div class="suite-info"><div class="suite-path">C:\Users\matheus.silva\Documents\Automação\apinovo\specs\cartao\listarCartoes.spec.js</div><div class="suite-time">1.837s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">Listagem de cartões</div><div class="test-title">listar Cartões</div><div class="test-status">passed</div><div class="test-duration">0.829s</div></div></div></div></div><div id="suite-6" class="suite-container"><div class="suite-info"><div class="suite-path">C:\Users\matheus.silva\Documents\Automação\apinovo\specs\pagamento\pagamento.spec.js</div><div class="suite-time">2.106s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento</div><div class="test-status">passed</div><div class="test-duration">0.711s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento com numero de parcelas igual a 0</div><div class="test-status">passed</div><div class="test-duration">0.062s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento sem documento</div><div class="test-status">passed</div><div class="test-duration">0.101s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento sem nome</div><div class="test-status">passed</div><div class="test-duration">0.075s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento sem email</div><div class="test-status">passed</div><div class="test-duration">0.078s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento com cep que possui menos de 8 caracteres</div><div class="test-status">passed</div><div class="test-duration">0.094s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento com cep que possui mais de 9 caracteres</div><div class="test-status">passed</div><div class="test-duration">0.062s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento sem numero de cartão de credito</div><div class="test-status">passed</div><div class="test-duration">0.075s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento sem cvv</div><div class="test-status">passed</div><div class="test-duration">0.086s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento sem nome Impresso</div><div class="test-status">passed</div><div class="test-duration">0.07s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento com o ano anterior ao atual</div><div class="test-status">passed</div><div class="test-duration">0.061s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento com o mes anterior</div><div class="test-status">passed</div><div class="test-duration">0.062s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento com mais caracteres em pais</div><div class="test-status">passed</div><div class="test-duration">0.071s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Pagamento</div><div class="test-title">Realizar pagamento com mais caracteres na uf</div><div class="test-status">passed</div><div class="test-duration">0.068s</div></div></div></div></div><div id="suite-7" class="suite-container"><div class="suite-info"><div class="suite-path">C:\Users\matheus.silva\Documents\Automação\apinovo\specs\cartao\buscarCliente.spec.js</div><div class="suite-time">1.996s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">Buscar cliente</div><div class="test-title">Consultar cliente</div><div class="test-status">passed</div><div class="test-duration">0.831s</div></div></div></div></div><div id="suite-8" class="suite-container"><div class="suite-info"><div class="suite-path">C:\Users\matheus.silva\Documents\Automação\apinovo\specs\cartao\cadastro-cliente.spec.js</div><div class="suite-time">4.73s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cliente</div><div class="test-title">Cadastrar cliente</div><div class="test-status">passed</div><div class="test-duration">0.325s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cliente</div><div class="test-title">cadastrar cliente com CPF inválido</div><div class="test-status">passed</div><div class="test-duration">0.069s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cliente</div><div class="test-title">cadastrar cliente sem CPF</div><div class="test-status">passed</div><div class="test-duration">0.07s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cliente</div><div class="test-title">cadastrar cliente com E-mail inválido</div><div class="test-status">passed</div><div class="test-duration">0.201s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">Cadastro de cliente</div><div class="test-title">cadastrar cliente sem E-mail</div><div class="test-status">passed</div><div class="test-duration">0.06s</div></div></div></div></div></div></body></html>

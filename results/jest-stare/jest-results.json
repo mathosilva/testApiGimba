@@ -1,0 +1,752 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 8,
+  "numPassedTests": 38,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 8,
+  "numTotalTests": 38,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1601045169664,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1601045180139,
+        "runtime": 8901,
+        "slow": true,
+        "start": 1601045171238
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\matheus.silva\\Documents\\Automação\\apinovo\\specs\\cartao\\cadastro-cliente.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Cadastro de cliente"
+          ],
+          "duration": 726,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cliente Cadastrar cliente",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cadastrar cliente"
+        },
+        {
+          "ancestorTitles": [
+            "Cadastro de cliente"
+          ],
+          "duration": 88,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cliente cadastrar cliente com CPF inválido",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "cadastrar cliente com CPF inválido"
+        },
+        {
+          "ancestorTitles": [
+            "Cadastro de cliente"
+          ],
+          "duration": 76,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cliente cadastrar cliente sem CPF",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "cadastrar cliente sem CPF"
+        },
+        {
+          "ancestorTitles": [
+            "Cadastro de cliente"
+          ],
+          "duration": 239,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cliente cadastrar cliente com E-mail inválido",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "cadastrar cliente com E-mail inválido"
+        },
+        {
+          "ancestorTitles": [
+            "Cadastro de cliente"
+          ],
+          "duration": 91,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cliente cadastrar cliente sem E-mail",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "cadastrar cliente sem E-mail"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1601045182154,
+        "runtime": 10931,
+        "slow": true,
+        "start": 1601045171223
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\matheus.silva\\Documents\\Automação\\apinovo\\specs\\cartao\\cadastro-cartao.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Cadastro de cartões"
+          ],
+          "duration": 1110,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cartões cadastrar cartão",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "cadastrar cartão"
+        },
+        {
+          "ancestorTitles": [
+            "Cadastro de cartões"
+          ],
+          "duration": 434,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cartões cadastrar cartão sem Cvv",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "cadastrar cartão sem Cvv"
+        },
+        {
+          "ancestorTitles": [
+            "Cadastro de cartões"
+          ],
+          "duration": 431,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cartões cadastrar cartão sem Nome Impresso",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "cadastrar cartão sem Nome Impresso"
+        },
+        {
+          "ancestorTitles": [
+            "Cadastro de cartões"
+          ],
+          "duration": 536,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cartões cadastrar cartão sem Numero do cartão",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "cadastrar cartão sem Numero do cartão"
+        },
+        {
+          "ancestorTitles": [
+            "Cadastro de cartões"
+          ],
+          "duration": 343,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cartões Cadastrar cartão com o ano anterior ao atual",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cadastrar cartão com o ano anterior ao atual"
+        },
+        {
+          "ancestorTitles": [
+            "Cadastro de cartões"
+          ],
+          "duration": 358,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cadastro de cartões Cadastrar cartão com o mes anterior",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cadastrar cartão com o mes anterior"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1601045182278,
+        "runtime": 11095,
+        "slow": true,
+        "start": 1601045171183
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\matheus.silva\\Documents\\Automação\\apinovo\\specs\\pagamento\\cancelaPagamento.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Cancelar Pagamento"
+          ],
+          "duration": 2533,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cancelar Pagamento Cancelar pagamento",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cancelar pagamento"
+        },
+        {
+          "ancestorTitles": [
+            "Cancelar Pagamento"
+          ],
+          "duration": 609,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cancelar Pagamento Cancelar pagamento ja cancelado",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cancelar pagamento ja cancelado"
+        },
+        {
+          "ancestorTitles": [
+            "Cancelar Pagamento"
+          ],
+          "duration": 319,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cancelar Pagamento Cancelar pagamento inválido",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cancelar pagamento inválido"
+        },
+        {
+          "ancestorTitles": [
+            "Cancelar Pagamento"
+          ],
+          "duration": 1766,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cancelar Pagamento Cancelar pagamento sem preencher o valor",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cancelar pagamento sem preencher o valor"
+        },
+        {
+          "ancestorTitles": [
+            "Cancelar Pagamento"
+          ],
+          "duration": 2447,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cancelar Pagamento Cancelar pagamento em partes",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cancelar pagamento em partes"
+        },
+        {
+          "ancestorTitles": [
+            "Cancelar Pagamento"
+          ],
+          "duration": 1291,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Cancelar Pagamento Cancelar pagamento com valor maior que o permitido",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cancelar pagamento com valor maior que o permitido"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1601045182511,
+        "runtime": 2162,
+        "slow": false,
+        "start": 1601045180349
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\matheus.silva\\Documents\\Automação\\apinovo\\specs\\cartao\\deletarCartao.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Deletar cartão"
+          ],
+          "duration": 1060,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Deletar cartão deletar Cartão",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "deletar Cartão"
+        },
+        {
+          "ancestorTitles": [
+            "Deletar cartão"
+          ],
+          "duration": 139,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Deletar cartão deletar Cartão de cliente inválido",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "deletar Cartão de cliente inválido"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1601045184702,
+        "runtime": 2356,
+        "slow": false,
+        "start": 1601045182346
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\matheus.silva\\Documents\\Automação\\apinovo\\specs\\cartao\\listarCartoes.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Listagem de cartões"
+          ],
+          "duration": 934,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Listagem de cartões listar Cartões",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "listar Cartões"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 14,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1601045185193,
+        "runtime": 2619,
+        "slow": false,
+        "start": 1601045182574
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\matheus.silva\\Documents\\Automação\\apinovo\\specs\\pagamento\\pagamento.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 829,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 134,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento com numero de parcelas igual a 0",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento com numero de parcelas igual a 0"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 89,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento sem documento",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento sem documento"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 80,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento sem nome",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento sem nome"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 80,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento sem email",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento sem email"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 229,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento com cep que possui menos de 8 caracteres",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento com cep que possui menos de 8 caracteres"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 66,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento com cep que possui mais de 9 caracteres",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento com cep que possui mais de 9 caracteres"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 108,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento sem numero de cartão de credito",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento sem numero de cartão de credito"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 75,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento sem cvv",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento sem cvv"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 88,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento sem nome Impresso",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento sem nome Impresso"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 84,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento com o ano anterior ao atual",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento com o ano anterior ao atual"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 81,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento com o mes anterior",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento com o mes anterior"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 84,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento com mais caracteres em pais",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento com mais caracteres em pais"
+        },
+        {
+          "ancestorTitles": [
+            "Pagamento"
+          ],
+          "duration": 68,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Pagamento Realizar pagamento com mais caracteres na uf",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Realizar pagamento com mais caracteres na uf"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1601045185574,
+        "runtime": 2753,
+        "slow": false,
+        "start": 1601045182821
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\matheus.silva\\Documents\\Automação\\apinovo\\specs\\cartao\\buscarCliente.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Buscar cliente"
+          ],
+          "duration": 373,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Buscar cliente Consultar cliente",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Consultar cliente"
+        },
+        {
+          "ancestorTitles": [
+            "Buscar cliente"
+          ],
+          "duration": 125,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Buscar cliente Consultar cliente com cpf inválido",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Consultar cliente com cpf inválido"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1601045186647,
+        "runtime": 1718,
+        "slow": false,
+        "start": 1601045184929
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\matheus.silva\\Documents\\Automação\\apinovo\\specs\\pagamento\\obterPagamento.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Obter Pagamento"
+          ],
+          "duration": 1010,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Obter Pagamento Obter Pagamento",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Obter Pagamento"
+        },
+        {
+          "ancestorTitles": [
+            "Obter Pagamento"
+          ],
+          "duration": 249,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Obter Pagamento Obter Pagamento Inexistente",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Obter Pagamento Inexistente"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}
