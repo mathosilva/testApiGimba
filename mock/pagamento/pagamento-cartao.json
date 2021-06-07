@@ -4,7 +4,7 @@
     "parcelas": 1,
     "cliente": {
       "id": 123,
-      "documento": "381.579.998-80",
+      "documento": "000.000.000-80",
       "email": "marcus1@mailinator.com",
       "nome" : "Marcus Ferrari Teste POC",
       "endereco": {
